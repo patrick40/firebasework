@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+    <EditText
+
+    android:id="@+id/EditTextEmail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="username here" />
+
+    <EditText
+
+        android:id="@+id/EditTextPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter the password"
+        android:layout_below="@+id/EditTextEmail"/>
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EditTextPass"
+        android:layout_alignParentRight="true"
+        android:text="login " />
+    <TextView
+        android:id="@+id/TextViewSignin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="already registered users"
+        android:layout_below="@+id/register"
+        android:textAlignment="center"/>
+</RelativeLayout>
